@@ -1,3 +1,8 @@
+.slide-wrapper {
+	position: relative;
+}
+
+
 .slide-item {
 	display: flex;
 	justify-content: flex-end;
@@ -48,12 +53,51 @@
 }
 
 .slide-item__img {
-
+	width: 1016px;
+	height: 572px;
+	background-repeat: no-repeat;
+	box-shadow: -16px 25px 65px rgba(11, 12, 17, 0.3);
 }
 
 .slide-item__img--bg-1 {
-	width: 1016px;
-	height: 572px;
 	background: url(../img/img/img-header.jpg);
-	background-repeat: no-repeat;
+}
+
+.slides-controls {
+	position: absolute;
+	width: 81px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	bottom: 6px;
+}
+
+.slides-control__left {
+
+}
+
+.slides-control__right {
+
+}
+
+.slides-controls-number {
+	font-family: "League Spartan", sans-serif;
+	font-size: 10px;
+	font-weight: 700;
+	line-height: 1;
+	letter-spacing: 4px;
+	color: #ebebeb;
+	text-transform: uppercase;
+}
+
+.slides-controls-number__active {
+	color: #5da8ef;
+}
+
+.slides-controls-number__from {
+
+}
+
+.slides-controls-number__total {
+	color: #262626;
 }

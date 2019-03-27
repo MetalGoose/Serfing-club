@@ -10,7 +10,7 @@
 </head>
 <body>
 	<!-- Container -->
-	<div class="container">
+	<header class="container relative">
 		<nav class="navigation-wrapper">
 
 			<a href="#">
@@ -38,27 +38,66 @@
 				</li>
 			</ul>
 		</nav>
+		<div class="slide-wrapper"></div>
+			
+			<!-- Slides -->
 
-		<div class="slide-item">
-			<div class="slide-item__desc">
-				<h2 class="slide-item__heading">
-					<span>Your</span>
-					Beautiful Escape
-				</h2>
-				<div class="slide-item__text">
-					<p>
-						One of the greatest things about the sport of surfing is that you need only
-						three things: your body, a surfboard, and a wave.
-					</p>
+			<div class="slide-item">
+				<div class="slide-item__desc">
+					<h2 class="slide-item__heading">
+						<span>Your</span>
+						Beautiful Escape
+					</h2>
+					<div class="slide-item__text">
+						<p>
+							One of the greatest things about the sport of surfing is that you need only
+							three things: your body, a surfboard, and a wave.
+						</p>
+					</div>
 				</div>
+
+				<div class="slide-item__img slide-item__img--bg-1"></div>
 			</div>
 
-			<div class="slide-item__img slide-item__img--bg-1"></div>
+			<!-- Slides controls -->
+
+			<div class="slides-controls">
+				<a class="slides-control__left" href="#">
+					<img src="img/controls/header-slider-left.svg" alt="Left">
+				</a>
+
+				<div class="slides-controls-number">
+					<span class="slides-controls-number__active">1</span>
+					<span class="slides-controls-number__from">/</span>
+					<span class="slides-controls-number__total">5</span>
+				</div>
+
+				<a class="slides-control__right" href="#">
+					<img src="img/controls/header-slider-right.svg" alt="Right">	
+				</a>
+					
+			</div>
+
+		<div class="site-desc">
+			<div class="site-desc__content">First&nbsp;Surfing&nbsp;Magazine</div>
 		</div>
-	</div>
+
+		<div class="header-social">
+			<div class="header-social__item">
+				<a href="#">
+					<img src="img/socials/social-tumblr.svg" alt="">
+				</a></div>
+			<div class="header-social__item">
+				<a href="#">
+					<img src="img/socials/social-twitter.svg" alt="">
+				</a></div>
+			<div class="header-social__item">
+				<a href="#">
+					<img src="img/socials/social-vimeo.svg" alt="">
+				</a></div>
+		</div>
+	</header>
 	<!-- // Container -->
-
-
 
 </body>
 </html>
