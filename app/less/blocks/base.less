@@ -21,3 +21,46 @@ body {
 .relative {
 	position: relative;
 }
+
+.read-more-link, a.read-more-link {
+	position: relative;
+	color: #333333;
+	font-family: "League Spartan", sans-serif;
+	font-size: 9px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 5.4px;
+	padding-bottom: 10px;
+
+	&:after {
+		position: absolute;
+		content: "";
+		left: 0;
+		right: 0;
+		bottom: 0;
+		height: 2px;
+		background-color: rgba(93, 169, 240, 0.7);
+	}
+} 
+
+.title {
+	color: #333333;
+	font-family: "Playfair Display", serif;
+	font-size: 42px;
+	font-weight: 700;
+	line-height: 1.2;
+	letter-spacing: 0.42px;
+	text-align: center;
+}
+
+.subtitle {
+	display: block;
+	color: #5da8ef;
+	font-family: "League Spartan", sans-serif;
+	font-size: 9px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 5.4px;
+	text-align: center;
+}
