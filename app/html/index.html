@@ -7,8 +7,13 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700|Playfair+Display|Poppins:300&amp;subset=cyrillic-ext" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="fonts/league-spartan/league-spartan.css">
+	<link rel="stylesheet" href="./libs/OwlCarousel2/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="./libs/OwlCarousel2/assets/owl.theme.default.min.css">
 </head>
 <body>
+
+	@@include('blocks/navigation.html')
+	@@include('blocks/slider.html')
 	
 	@@include('blocks/header.html')
 	@@include('blocks/quote.html')
@@ -20,6 +25,9 @@
 	@@include('blocks/camp.html')
 	@@include('blocks/footer.html')
 
-	<script type="text/javascript" src="https://spikmi.com/Widget?Id=557"></script>
+<!-- 	<script type="text/javascript" src="https://spikmi.com/Widget?Id=557"></script> -->
+	<script src="./libs/jquery/jquery-3.3.1.js" ></script>
+	<script src="./libs/OwlCarousel2/owl.carousel.min.js" ></script>
+	<script src="./js/main.js"></script>
 </body>
 </html>

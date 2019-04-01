@@ -9,6 +9,15 @@
 	right: -50px;
 	top: 58px;
 
+	@media (max-width: 1400px) {
+		right: 40px;
+		top: 170px;
+		z-index: 2;
+		.site-desc__content {
+			color: #fff;
+		}
+	}
+
 }
 
 .site-desc__content {
@@ -21,7 +30,13 @@
 }
 
 .header-social-wrapper {
+	width: 20px;
 	position: absolute;
 	right: -45px;
 	bottom: 0;
+	
+	@media (max-width: 1400px) {
+		right: 25px;
+		bottom: 30px;
+	}
 }
