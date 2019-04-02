@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	var headerSlider = $(".owl-carousel");
+	const headerSlider = $("#headerSlider");
 
 	headerSlider.on('changed.owl.carousel', function(event){
 		$('.slides-controls-number__active').text(event.item.index + 1);
@@ -14,7 +14,6 @@ $(document).ready(function(){
 
 	headerSlider.owlCarousel({
 		items: 1,
-		// loop: true,
 		dots: false,
 		smartSpeed: 300,
 	});
@@ -25,10 +24,5 @@ $(document).ready(function(){
 
 	$('#headerSliderRight').click(function() {
 	    headerSlider.trigger('next.owl.carousel');
-
-
-
-
-
 })
 });
